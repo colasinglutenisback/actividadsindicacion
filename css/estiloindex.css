@@ -41,19 +41,6 @@ article>a {
     background: url(../images/atom.png) 50% 50% /cover;
 }
 
-.rssvalid, .atomvalid {
-    width: 80px;
-    height: 30px;
-}
-
-.rssvalid {
-    background: url(../images/valid-rss-rogers.png) 50% 50% /cover;
-}
-
-.atomvalid {
-    background: url(../images/valid-atom.png) 50% 50% /cover;
-}
-
 .rsscode:hover,
 .atomcode:hover,
 .rssvalid:hover,
