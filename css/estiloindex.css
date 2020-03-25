@@ -1,0 +1,31 @@
+section {
+    width: 100%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+article {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    width: 40%;
+}
+
+.rsscode, .atomcode {
+    width: 100px;
+    height: 100px;
+}
+
+.rsscode:hover, .atomcode:hover {
+    transform: scale(1.1);
+}
+
+.rsscode {
+    background: url(../images/1200px-Feed-icon.png) 50% 50% /cover;
+}
+
+.atomcode {
+    background: url(../images/atom.png) 50% 50% /cover;
+}

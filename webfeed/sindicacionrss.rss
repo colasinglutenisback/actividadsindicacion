@@ -4,16 +4,17 @@
 
     <channel>
         <title>Sindicación de contenidos (RSS)</title>
-		<atom:link href="https://github.com/colasinglutenisback/actividadsindicacion/webfeed/ejercicio1.rss" rel="self" type="application/rss+xml"/>
-        <link>https://github.com/colasinglutenisback/actividadsindicacion</link>
+		<atom:link href="https://colasinglutenisback.github.io/actividadsindicacion/webfeed/sindicacionrss.rss" rel="self" type="application/rss+xml"/>
+        <link>https://colasinglutenisback.github.io/actividadsindicacion/</link>
         <description>Canal de la actividad de sindicación de contenidos.</description>
         <language>es-ES</language>
         <image>
-            <title>Logo guapísimo</title>
-            <url>http://www.mipagina.com/logotipo-del-rss.png</url>
-            <link>http://www.mipagina.com</link>
+            <title>Logo sindicación</title>
+            <url>https://colasinglutenisback.github.io/actividadsindicacion/images/rss%201.png</url>
+            <link>https://colasinglutenisback.github.io/actividadsindicacion/</link>
             <width>90</width>
             <height>30</height>
+            <description>Logo sindicación</description>
         </image>
         <pubDate>Tue, 25 Mar 2020 19:00:00 GMT</pubDate>
 
@@ -26,8 +27,8 @@
 
     <item>
         <title>Próximamente: Razer Basilisk Ultimate.</title>
-        <link>https://colasinglutenisback.github.io/lnd-things/index.html</link>
-        <guid>https://colasinglutenisback.github.io/lnd-things/index.html</guid>
+        <link>https://colasinglutenisback.github.io/actividadsindicacion/webnoticias/myweb.html</link>
+        <guid>https://colasinglutenisback.github.io/actividadsindicacion/webnoticias/myweb.html</guid>
         <description>Si te haces llamar gamer, desearás tener este producto en tus manos tan pronto como esté disponible. El Razer Basilisk Ultimate puede ser
         considerado el mouse gaming definitivo. Velocidad, ergonomía y elegancia sin igual hacen de este mouse el mejor del mercado.</description>
     </item>
