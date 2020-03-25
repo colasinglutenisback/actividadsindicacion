@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="">
+
+    <channel>
+        <title>Sindicación de contenidos (RSS)</title>
+		<atom:link href="https://github.com/colasinglutenisback/actividadsindicacion/webfeed/ejercicio1.rss" rel="self" type="application/rss+xml"/>
+        <link>https://github.com/colasinglutenisback/actividadsindicacion</link>
+        <description>Canal de la actividad de sindicación de contenidos.</description>
+        <language>es-ES</language>
+        <image>
+            <title>Logo guapísimo</title>
+            <url>http://www.mipagina.com/logotipo-del-rss.png</url>
+            <link>http://www.mipagina.com</link>
+            <width>90</width>
+            <height>30</height>
+        </image>
+        <pubDate>Tue, 25 Mar 2020 19:00:00 GMT</pubDate>
+
+    <item>
+        <title>Tiempo de Santa Cruz de Tenerife</title>
+        <link>https://www.tiempo.es/santa_cruz_de_tenerife-santa_cruz_de_tenerife-es0st0038.html</link>
+        <guid>https://www.tiempo.es/santa_cruz_de_tenerife-santa_cruz_de_tenerife-es0st0038.html</guid>
+        <description>Nos muestra el tiempo en Santa Cruz e Tenerife a través de la web www.eltiempo24.es</description>
+    </item>
+
+    <item>
+        <title>Próximamente: Razer Basilisk Ultimate.</title>
+        <link>https://colasinglutenisback.github.io/lnd-things/index.html</link>
+        <guid>https://colasinglutenisback.github.io/lnd-things/index.html</guid>
+        <description>Si te haces llamar gamer, desearás tener este producto en tus manos tan pronto como esté disponible. El Razer Basilisk Ultimate puede ser
+        considerado el mouse gaming definitivo. Velocidad, ergonomía y elegancia sin igual hacen de este mouse el mejor del mercado.</description>
+    </item>
+
+    <item>
+        <title>El "Apple Watch barato" de Xiaomi que arrasa en ventas</title>
+        <link>https://www.xataka.com/seleccion/apple-watch-barato-xiaomi-que-arrasa-ventas-esta-oferta-corte-ingles-amazfit-gts-110-euros</link>
+        <guid>https://www.xataka.com/seleccion/apple-watch-barato-xiaomi-que-arrasa-ventas-esta-oferta-corte-ingles-amazfit-gts-110-euros</guid>
+        <description>Si estás buscando un reloj inteligente pero no quieres gastarte demasiado, en El Corte Inglés hay unos cuantos smartwatch a muy buen precio,
+        pero si buscas el mejor en relación calidad precio, tenemos buenas noticias: el Amazfit GTS está rebajado a 110 euros.</description>
+    </item>
+    
+    </channel>
+</rss>

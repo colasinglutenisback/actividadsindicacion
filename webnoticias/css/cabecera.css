@@ -1,0 +1,266 @@
+header {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-content: space-between;
+    width: 100%;
+    background: url(../images/fiber1.jpg) no-repeat 50% 50% / cover;
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    z-index: 5;
+}
+
+header a {
+    display: block;
+    color: white;
+}
+
+    header>nav>.menu {
+        display: inline-flex;
+        width: 100%;
+    }
+
+        header ul {
+            list-style: none;
+        }
+
+@media screen and (min-width: 1280px) {
+    header {
+        position: absolute;
+    }
+    
+    header>.opener,
+    header>.hamb {
+        display: none;
+    }
+
+    header>.imgcabecera {
+        width: 12%;
+        align-self: center;
+    }
+
+    header>.imgcabecera img {
+        width: 100%;
+    }
+
+    header>nav {
+        width: 88%;
+        align-self: center;
+    }
+
+            header>nav>.menu>li {
+                text-align: center;
+                vertical-align: top;
+                display: inline-block;
+                width: 100%;
+            }
+
+                header>nav>.menu li>a {
+                    color: #44D62C;
+                    padding: 5%;
+                    display: block;
+                    transition: color .5s linear, background-color .5s linear;
+                }
+                    header>nav>.menu li>a:hover{
+                        color: black;
+                        background-color: #44D62C;
+                        transition: color .5s linear, background-color .5s linear;
+                    }
+
+            header>nav>.menu ul {
+                width: 22%;
+            }
+
+                header>nav>.menu ul li {
+                    display: none;
+                    transition: all .5s linear;
+                }
+                    header>nav>.menu>li:hover ul {
+                        position: absolute;
+                    }
+                    header>nav>.menu>li:hover li {
+                        display: block;
+                        visibility: visible;
+                        transition: all .5s linear;
+                        background: url(../images/fiber1.jpg) repeat;
+                    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1280px) {
+    header {
+        font-size: 1rem;
+        height: 5em;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+        header .opener,
+        header .hamb {
+            width: 5em;
+            height: 5em;
+        }
+
+        header .opener {
+            width: 6em;
+            height: 6em;
+            position: absolute;
+            z-index: 2;
+            opacity: 0;
+            cursor: pointer;
+        }
+            header .opener:checked ~ nav {
+                margin-top: -200%;
+                transition: .3s linear;
+            }
+
+        header .hamb {
+            z-index: 1;
+            background-color: gray;
+            animation: colors 5s linear infinite;
+        }
+
+            header .hamb>.fa-bars {
+                font-size: 4.2rem;
+                margin: 10% 0 0 12%
+            }
+
+        header>.imgcabecera {
+            flex-grow: 1;
+            height: 5em;
+            width: 10%;
+            align-self: center;
+            display: inline-flex;
+        }
+
+            header>.imgcabecera>a {
+                width: 100%;
+            }
+
+            header>.imgcabecera img {
+                height: 100%;
+                justify-self: center;
+            }
+
+        header>nav {
+            width: 50%;
+            position: absolute;
+            top: 0;
+            left: 5em;
+            background-color: gray;
+            border: 1px solid black;
+            transition: .3s linear;
+            text-align: center;
+        }
+
+            header>nav a {
+                padding: 1.8em;
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+            }
+                header>nav a:hover {
+                    background-color: #333333;
+                }
+
+            header>nav ul {
+                display: inline-flex;
+                flex-flow: row wrap;
+            }
+
+            header>nav li {
+                width: 100%;
+            }
+
+                header>nav li>ul {
+                    display: block;
+                }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        font-size: .8rem;
+        height: 6em;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+        header .opener,
+        header .hamb {
+            width: 6em;
+            height: 6em;
+        }
+
+        header .opener {
+            position: absolute;
+            z-index: 2;
+            opacity: 0;
+            cursor: pointer;
+        }
+            header .opener:checked ~ nav {
+                margin-left: -200%;
+                transition: .3s linear;
+            }
+
+        header .hamb {
+            z-index: 1;
+            background-color: gray;
+            animation: colors 5s linear infinite;
+        }
+
+            header .hamb>.fa-bars {
+                font-size: 4rem;
+                margin: 10% 0 0 10%
+            }
+
+        header>.imgcabecera {
+            flex-grow: 1;
+            height: 6em;
+            align-self: center;
+            width: 10%;
+            display: inline-flex;
+        }
+
+            header>.imgcabecera>a {
+                width: 100%;
+                display: inline-flex;
+                align-content: center;
+            }
+
+            header>.imgcabecera img {
+                width: 100%;
+            }
+
+        header>nav {
+            width: 80%;
+            position: absolute;
+            top: 0;
+            left: 6em;
+            background-color: gray;
+            border: 1px solid black;
+            transition: .3s linear;
+            text-align: center;
+        }
+
+            header>nav a {
+                padding: 2.3em;
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+            }
+                header>nav a:hover {
+                    background-color: #333333;
+                }
+
+            header>nav ul {
+                display: inline-flex;
+                flex-flow: row wrap;
+            }
+
+            header>nav li {
+                width: 100%;
+            }
+
+                header>nav li>ul {
+                    display: block;
+                }
+}
