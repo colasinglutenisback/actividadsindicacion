@@ -2,29 +2,30 @@ h1 {
     font-size: 3rem;
     width: 100%;
     text-align: center;
-    text-shadow: 1px 1px 3px red;
+    text-shadow: 3px 3px 3px orangered;
 }
 
 section {
     width: 100%;
     display: inline-flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 article {
     display: inline-flex;
+    margin: 2%;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    width: 40%;
-    border: 1px solid black;
+    width: 30%;
+    border: 3px solid black;
     border-radius: 5px;
-    box-shadow: 3px 3px 3px 3px black;
+    box-shadow: 10px 10px 10px 5px black;
 }
 
 article>a {
-    margin: 5%;
+    padding: 1rem;
 }
 
 .rsscode, .atomcode {
