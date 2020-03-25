@@ -1,3 +1,10 @@
+h1 {
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px 3px red;
+}
+
 section {
     width: 100%;
     display: inline-flex;
@@ -9,17 +16,20 @@ article {
     display: inline-flex;
     flex-flow: row wrap;
     justify-content: space-around;
-
+    align-items: center;
     width: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+article>a {
+    margin: 5%;
 }
 
 .rsscode, .atomcode {
     width: 100px;
     height: 100px;
-}
-
-.rsscode:hover, .atomcode:hover {
-    transform: scale(1.1);
 }
 
 .rsscode {
@@ -28,4 +38,24 @@ article {
 
 .atomcode {
     background: url(../images/atom.png) 50% 50% /cover;
+}
+
+.rssvalid, .atomvalid {
+    width: 80px;
+    height: 30px;
+}
+
+.rssvalid {
+    background: url(../images/valid-rss-rogers.png) 50% 50% /cover;
+}
+
+.atomvalid {
+    background: url(../images/valid-atom.png) 50% 50% /cover;
+}
+
+.rsscode:hover,
+.atomcode:hover,
+.rssvalid:hover,
+.atomvalid:hover {
+    transform: scale(1.1);
 }
