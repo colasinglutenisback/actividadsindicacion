@@ -34,15 +34,10 @@ section {
                 animation: colors 5s linear infinite;
             }
 
-        .frases {
+        .noticia {
             align-self: center;
             margin-left: 3%;
         }
-
-            cite {
-                margin-left: 3%;
-            }
-
         .evebus {
             width: 100%;
             display: inline-flex;
@@ -89,13 +84,9 @@ section {
             width: 40%;
         }
 
-        .frases {
+        .noticia {
             width: 60%;
         }
-
-            blockquote, cite {
-                display: inline;
-            }
 
             .evebus {
                 flex-flow: row nowrap;
@@ -129,21 +120,12 @@ section {
             margin: 1% auto;
         }
 
-        .frases {
+        .noticia {
             width: 90%;
             display: inline-flex;
             flex-flow: row wrap;
             justify-content: space-between;
         }
-
-            .line {
-                width: 45%;
-                margin: 2% 2%;
-            }
-
-            blockquote, cite {
-                display: block;
-            }
 
             .evebus {
                 flex-flow: row wrap;
@@ -176,17 +158,9 @@ section {
             margin: 2% auto;
         }
 
-        .frases {
+        .noticia {
             width: 100%;
         }
-
-            .line {
-                margin: 3% 10%;
-            }
-
-            blockquote, cite {
-                display: block;
-            }
 
             .evebus {
                 flex-flow: row wrap;
